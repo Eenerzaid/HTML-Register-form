@@ -1,0 +1,67 @@
+<main id="main" class="container">
+   <div class="row">
+     <div class="col-xs-12 col-lg-offset-3 col-lg-6">
+         <div class="m-b-md text-center">
+             
+             
+             <style>
+  .main-header {
+  text-align: center;
+}
+.oblique {
+  font-style:oblique;
+  
+  }
+  nav { 
+  font: menu; 
+  }
+</style>
+<header class="main-header" role="banner">
+    <h1 
+    
+             style="background-color:#f00ff0; border-color:#000000; color:#000000" id="title"> Enterprise summit </h1>
+            <p id="description" class="description" class="arista" class="oblique" class="text-center" >Se parte de la esta experiencia con Loqui</p>
+         </div>
+         <form method="GET" action="" id="survey-form" name="survey-form">
+            
+            <fieldset>
+                
+               <label for="name" id="name-label">
+               Name *
+               <input class="" type="text" id="name" name="name" placeholder="Enter your name " required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="email" id="email-label">
+               Email *
+               <input class="" type="email" id="email" name="email" placeholder="email@gmail.com" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="phone" id="phone-label">
+               Phone number *
+               <input class="Phone" type="phone" id="phone" name="phone" placeholder="2222 2222" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="Company" id="company-label">
+              Company 
+               <input class="" type="company" id="company" name="company" placeholder="Empresa" required />
+               </label>
+            </fieldset>
+            <fieldset>
+               <label for="Role">
+                  current role? 
+                  <input class="role" type="role" id="role" name="role" placeholder="Puesto"/>
+                  
+               </label>
+               
+            </fieldset>
+            
+            <button  
+
+               width="1000px" id="submit" type="submit" class="btn" style="background-color:#f00ff0; border-color:#000000; color:#000000"> SUBMIT </button>
+         </form>
+         </div>
+      </div>
+</main>
